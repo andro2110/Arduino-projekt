@@ -1,0 +1,7 @@
+tipka na arduinotu, se nov paket pokaze na traku, kjer se premikajo
+
+stevec paketov: stikalo 
+
+s potenciometrom nastimas tezo
+
+ce gre cez senzor na spletni strani, se prizge lucka

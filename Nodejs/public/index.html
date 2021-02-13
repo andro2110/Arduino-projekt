@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PeT</title>
+  </head>
+  <body>
+    <h1>Števec paketov na tekočem traku</h1>
+
+    <!-- <button id="button">klik</button> -->
+
+    <img id="tunel" src="./img/tunel.png" style="display: none" />
+
+    <img
+      id="paket1"
+      class="paket"
+      src="./img/paket1.png"
+      style="display: none"
+    />
+    <img
+      id="paket2"
+      class="paket"
+      src="./img/paket2.png"
+      style="display: none"
+    />
+    <img
+      id="paket3"
+      class="paket"
+      src="./img/paket3.png"
+      style="display: none"
+    />
+    <img
+      id="paket4"
+      class="paket"
+      src="./img/paket4.png"
+      style="display: none"
+    />
+    <img
+      id="paket5"
+      class="paket"
+      src="./img/paket5.png"
+      style="display: none"
+    />
+
+    <img id="senzor" src="./img/senzor.png" style="display: none" />
+
+    <canvas id="canvas" width="1800" height="700"></canvas>
+
+    <p>Teza paketa: <span id="teza"></span></p>
+    <p>Poskenirani paketi: <span id="skenirano"></span></p>
+    <p>Skupna teza: <span id="skTeza"></span></p>
+    <p>Teza zadnjega paketa: <span id="zadnjiP"></span></p>
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="js/client.js"></script>
+    <!-- <script src="./js/Common/Main.js"></script> -->
+  </body>
+</html>
